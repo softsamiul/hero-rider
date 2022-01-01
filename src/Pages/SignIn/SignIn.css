@@ -1,0 +1,77 @@
+.sign--inner-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 50px;
+    margin-top: 80px;
+    border-radius: 30px;
+    height: 80vh;
+    color: #fff;
+}
+.riding-img-design{
+    border-radius: 30px;
+}
+.sign-in-text{
+    margin-bottom: 35px;
+}
+.submit-btn{
+    display: inline-block;
+    padding: 8px 50px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: all ease-in-out .5s;
+}
+.submit-btn:hover{
+    background: #fff;
+    color: #000;
+    
+}
+.join-btn{
+    outline: none;
+    background-color: #FF784F;
+    border: 1px solid #FF784F;
+    border-radius: 8px;
+    padding: 6px 25px;
+    color: #fff;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+}
+.join-btn:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.join-btn-2{
+    background-color: #FF7F00;
+}
+.signin-input-group-wrapper{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+.signin-inp-label{
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px 15px;
+}
+.signin-inp-field{
+    outline: none;
+    width: 90%;
+    padding: 8px 15px;
+    display: inline-block;
+    border: none;
+    border-left: 1px solid #ddd;
+}
+.sign-in-form{
+    width: 50%;
+    margin: 0 auto;
+}

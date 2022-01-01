@@ -1,0 +1,26 @@
+.navbar-container{
+    background-color: #8A2BE2;
+    color: #333;
+}
+.custom-navbar-container{
+    line-height: 1.4 !important;
+}
+.custom-nav-item{
+    font-weight: bold !important;
+    color: #333;
+}
+.btn-regular{
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 0 23px;
+    font-size: 16px;
+    transition: all ease-in-out .5s;
+}
+.btn-regular:hover{
+    background-color: #FF784F;
+    border: 1px solid #FF784F;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

@@ -1,0 +1,36 @@
+.profile-page-wrapper{
+    margin-top: 60px;
+}
+.single-package-wraper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.single-package{
+    background-color: #D7D7D7;
+    padding: 20px;
+    margin: 0 10px;
+    width: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btn-design{
+    background: orange;
+    border: 1px solid orange;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 500;
+    transition: all ease-in-out .5s;
+}
+.btn-design:hover{
+    background-color: #fff;
+    color: #000;
+    /* border: 1px solid ; */
+}
+.profile-table{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

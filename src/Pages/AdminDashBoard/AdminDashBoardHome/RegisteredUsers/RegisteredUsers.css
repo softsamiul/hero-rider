@@ -1,0 +1,14 @@
+.search-form{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+}
+.search-inp{
+    width: 100%;
+    outline: none;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+}
+.search-inp-submit{
+    width: 20%;
+}

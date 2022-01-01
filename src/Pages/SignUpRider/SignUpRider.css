@@ -1,0 +1,54 @@
+.input-group-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 20%;
+}
+.inp-label{
+    width: 30%;
+    text-align: left;
+    font-weight: 500;
+}
+.inp-field{
+    width: 100%;
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.form-wrapper{
+    width: 80%;
+    margin: 50px auto;
+}
+.signup-rider-inner{
+    height: auto;
+    margin: 20px 0;
+}
+.submit-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 9px 40px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.car-info-text{
+    text-align: left;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-wrapper-inner{
+    display: flex;
+}
+.personal-info-wrapper{
+    width: 50%;
+}
+.car-info-wrapper{
+    width: 50%;
+}
+.learner-row-wrap{
+    display: flex;
+    align-items: center;
+}
