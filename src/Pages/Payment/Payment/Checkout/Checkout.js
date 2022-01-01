@@ -15,7 +15,7 @@ const Checkout = ({ order }) => {
   const [clientSecret, setClientSecret] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:7000/create-payment-intent", {
+    fetch("https://rocky-island-87400.herokuapp.com/create-payment-intent", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -76,7 +76,7 @@ const Checkout = ({ order }) => {
         last4: paymentMethod.card.last4,
         transaction: paymentIntent.client_secret.slice("_secret")[0],
       };
-      const url = `http://localhost:7000/orders/${_id}`;
+      const url = `https://rocky-island-87400.herokuapp.com/orders/${_id}`;
       fetch(url, {
         method: "PUT",
         headers: {

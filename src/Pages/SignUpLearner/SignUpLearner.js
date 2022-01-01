@@ -28,7 +28,7 @@ const SignUpLearner = () => {
     } else {
       registerUser(data.email, data.password, data.fullName, history, location);
     }
-    axios.post("http://localhost:7000/riderUsersCollection", data)
+    axios.post("https://rocky-island-87400.herokuapp.com/riderUsersCollection", data)
       .then((response) => {
         console.log(response);
         if (response.data.insertedId) {

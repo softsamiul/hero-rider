@@ -9,7 +9,7 @@
 //     const [allUsers, setAllUsers] = useState([]);
 
 //     useEffect(()=>{
-//         fetch('http://localhost:7000/riderUsersCollection/')
+//         fetch('https://rocky-island-87400.herokuapp.com/riderUsersCollection/')
 //         .then(res=>res.json())
 //         .then(data=> setAllUsers(data))
 //     },[])

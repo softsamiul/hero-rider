@@ -7,7 +7,7 @@ const MakeAdmin = () => {
     const onSubmit = data => {
         const {email} = data;
         const user={email}
-      fetch('http://localhost:7000/riderUsersCollection',{
+      fetch('https://rocky-island-87400.herokuapp.com/riderUsersCollection',{
         method:'PUT',
         headers: {
           'content-type':'application/json'

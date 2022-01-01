@@ -13,7 +13,7 @@ const Profile = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch(`http://localhost:7000/riderUsersCollection`)
+    fetch(`https://rocky-island-87400.herokuapp.com/riderUsersCollection`)
       .then((res) => res.json())
       .then((data) => setAllUser(data));
   }, []);
@@ -24,7 +24,7 @@ const Profile = () => {
   const currentUserType = currentUser?.userType;
 
   useEffect(() => {
-    fetch(`http://localhost:7000/packages`)
+    fetch(`https://rocky-island-87400.herokuapp.com/packages`)
       .then((res) => res.json())
       .then((data) => setPackages(data));
   }, []);

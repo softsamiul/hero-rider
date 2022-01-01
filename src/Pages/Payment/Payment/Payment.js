@@ -15,16 +15,11 @@ const Payment = () => {
     const {price, title} = order;
 
     useEffect(()=>{
-        fetch(`http://localhost:7000/packages/${id}`)
+        fetch(`https://rocky-island-87400.herokuapp.com/packages/${id}`)
         .then(res => res.json())
         .then(data => setOrder(data))
     },[])
 
-
-
-
-    console.log(id)
-    console.log(order)
     return (
         <div>
             

@@ -45,7 +45,7 @@ const useFirebase = () => {
 
   const savedUser = (email, displayName) => {
     const user = { email, displayName };
-    fetch("http://localhost:7000/usersCollection", {
+    fetch("https://rocky-island-87400.herokuapp.com/usersCollection", {
       method: "POST",
       headers: {
         "content-type": "application/json",

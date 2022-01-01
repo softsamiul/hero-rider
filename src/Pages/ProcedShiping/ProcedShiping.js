@@ -16,7 +16,7 @@ const ProcedShiping = () => {
   } = useForm();
   const onSubmit = (data) => {
 
-    axios.post('http://localhost:7000/orders',data)
+    axios.post('https://rocky-island-87400.herokuapp.com/orders',data)
         .then(response => {
             console.log(response);
             if(response.data.insertedId){
@@ -30,7 +30,7 @@ const ProcedShiping = () => {
   return (
     <div>
       <Container>
-        <h2>Proced Shiping</h2>
+        <h2 className="mt-5">Proced Shiping</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="input-group-wrapper">
             <label className="inp-label">Full Name: </label>

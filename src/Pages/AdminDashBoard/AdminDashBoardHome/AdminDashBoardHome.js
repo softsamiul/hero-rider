@@ -27,7 +27,7 @@ function AdminDashBoardHome(props) {
   const { user } = useAuth();
   const [usersAll, setAllUsers] = React.useState([]);
   React.useEffect(() => {
-    fetch(`http://localhost:7000/riderUsersCollection`)
+    fetch(`https://rocky-island-87400.herokuapp.com/riderUsersCollection`)
       .then((res) => res.json())
       .then((data) => setAllUsers(data));
   }, []);
@@ -44,7 +44,7 @@ function AdminDashBoardHome(props) {
     setMobileOpen(!mobileOpen);
   };
   let { path, url } = useRouteMatch();
-  const { logOut, admin } = useAuth();
+  const { logOut } = useAuth();
 
   const drawer = (
     <div>

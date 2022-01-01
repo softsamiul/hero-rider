@@ -18,7 +18,7 @@ const RegisteredUsers = () => {
 
 //   const size = 10;
 //   useEffect(() => {
-//     fetch(`http://localhost:7000/riderUsersCollection?page=${page}&&size=${size}`)
+//     fetch(`https://rocky-island-87400.herokuapp.com/riderUsersCollection?page=${page}&&size=${size}`)
 //         .then(res => res.json())
 //         .then(data => {setAllUsers(data.users)
 //           console.log(data)
@@ -29,7 +29,7 @@ const RegisteredUsers = () => {
 // }, [page]);
 
   useEffect(() => {
-    fetch(`http://localhost:7000/riderUsersCollection`)
+    fetch(`https://rocky-island-87400.herokuapp.com/riderUsersCollection`)
       .then((res) => res.json())
       .then((data) => setUsersToFilter(data));
   }, []);
